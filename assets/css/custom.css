@@ -1,0 +1,57 @@
+#root{
+    background: #efefef;
+}
+.main__aside{
+    padding-top: 0 !important;
+}
+.main__aside .aside-title .secondary-title{
+    margin: 15px 0;
+}
+
+.main__content .news__item,
+.main__aside .news__item{
+    background: #fff;
+    margin-bottom: 15px;
+    border-radius:10px;
+    padding: 15px;
+    box-shadow:0 2px 4px rgba(0,0,0,.1);
+}
+.news-card .news-card__content .news-card__text{
+    margin-top: 5px;
+}
+.news-card .news-card__content .news-card__text span{
+    font-weight: normal;
+    color: #777;
+}
+
+.news__item .button_groups a{
+    color: #fff;
+    font-size: 16px;
+}
+.news__item .button_groups .more:hover{
+    color: #fff !important;
+}
+.fa-download:before {
+    color: #fff;
+}
+#downloadIcon{
+    margin-left:12px;
+    font-size:15px;
+    color: #9e9e9e;
+}
+/*news view*/
+.news_view .main__content .news .book_title,
+.news_view .main__content .news .book_name,
+.news_view .main__content .news .book_body{
+    color: #17206a;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.news_view .main__content .news .book_title span,
+.news_view .main__content .news .book_name span,
+.news_view .main__content .news .book_body span{
+    color: #000;
+    font-weight: 600;
+;
+}
